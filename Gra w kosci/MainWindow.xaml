@@ -1,0 +1,88 @@
+﻿<Window x:Class="Gra_w_kosci.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Gra_w_kosci"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <DockPanel>
+
+        <StackPanel DockPanel.Dock="Left" >
+            <Button x:Name="kosc0">
+                <Image  Width="80" Source="/Resources/kostkapusta.png"/>
+            </Button>
+            <Button x:Name="kosc1">
+                <Image  Width="80" Source="/Resources/kostkapusta.png"/>
+            </Button>
+            <Button x:Name="kosc2">
+                <Image  Width="80" Source="/Resources/kostkapusta.png"/>
+            </Button>
+            <Button x:Name="kosc3">
+                <Image  Width="80" Source="/Resources/kostkapusta.png"/>
+            </Button>
+            <Button x:Name="kosc4">
+                <Image  Width="80" Source="/Resources/kostkapusta.png"/>
+            </Button>
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal">
+            <Label>Wynik</Label>
+            <Button Click="Button_Rzuc">Rzuć</Button>
+            <Button>Zatwierdż</Button>
+            <StackPanel >
+                <Label x:Name="wynik1"></Label>
+            </StackPanel>
+        </StackPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+    
+
+        <Label  Grid.Row="0" Grid.Column="0" >1</Label>
+        <TextBox x:Name="jedynki" Grid.Row="0" Grid.Column="1">0</TextBox>
+        <Label  Grid.Row="1" Grid.Column="0" >1</Label>
+        <TextBox x:Name="dwojki" Grid.Row="1" Grid.Column="1">0</TextBox>
+        <Label  Grid.Row="2" Grid.Column="0" >1</Label>
+        <TextBox x:Name="trojki" Grid.Row="2" Grid.Column="1">0</TextBox>
+        <Label  Grid.Row="3" Grid.Column="0" >1</Label>
+        <TextBox x:Name="czworki" Grid.Row="3" Grid.Column="1">0</TextBox>
+        <Label  Grid.Row="4" Grid.Column="0" >1</Label>
+        <TextBox x:Name="piatki" Grid.Row="4" Grid.Column="1">0</TextBox>
+        <Label  Grid.Row="5" Grid.Column="0" >1</Label>
+        <TextBox x:Name="szostki" Grid.Row="5" Grid.Column="1">0</TextBox>
+        
+            
+        <Label  Grid.Row="0" Grid.Column="2" >1</Label>
+        <TextBox x:Name="trzyk" Grid.Row="0" Grid.Column="3">0</TextBox>
+        <Label  Grid.Row="1" Grid.Column="2" >1</Label>
+        <TextBox x:Name="czteryk" Grid.Row="1" Grid.Column="3">0</TextBox>
+        <Label  Grid.Row="2" Grid.Column="2" >1</Label>
+        <TextBox x:Name="full" Grid.Row="2" Grid.Column="3">0</TextBox>
+        <Label  Grid.Row="3" Grid.Column="2" >1</Label>
+        <TextBox x:Name="mstrit" Grid.Row="3" Grid.Column="3">0</TextBox>
+        <Label  Grid.Row="4" Grid.Column="2" >1</Label>
+        <TextBox x:Name="dstrit" Grid.Row="4" Grid.Column="3">0</TextBox>
+        <Label  Grid.Row="5" Grid.Column="2" >1</Label>
+        <TextBox x:Name="yatzy" Grid.Row="5" Grid.Column="3">0</TextBox>
+        <Label  Grid.Row="6" Grid.Column="2" >1</Label>
+        <TextBox x:Name="szansa" Grid.Row="6" Grid.Column="3">0</TextBox>
+        </Grid>
+
+    </DockPanel>
+    
+</Window>
