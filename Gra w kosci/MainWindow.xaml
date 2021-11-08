@@ -11,19 +11,35 @@
 
         <StackPanel DockPanel.Dock="Left" >
             <Button x:Name="kosc0">
-                <Image  Width="80" Source="/Resources/kostkapusta.png"/>
+                <StackPanel Orientation="Horizontal">
+                    <Label x:Name="kosc0Label" FontSize="32">1</Label>
+                    <Image x:Name="kosc0Image"  Width="80" Source="/Resources/kostka1.png"/>
+                </StackPanel>
+                
             </Button>
             <Button x:Name="kosc1">
-                <Image  Width="80" Source="/Resources/kostkapusta.png"/>
+                <StackPanel Orientation="Horizontal">
+                    <Label x:Name="kosc1Label" FontSize="32">2</Label>
+                    <Image x:Name="kosc1Image" Width="80" Source="/Resources/kostkapusta.png"/>
+                </StackPanel>
             </Button>
             <Button x:Name="kosc2">
-                <Image  Width="80" Source="/Resources/kostkapusta.png"/>
+                <StackPanel Orientation="Horizontal">
+                    <Label x:Name="kosc2Label" FontSize="32">3</Label>
+                    <Image x:Name="kosc2Image" Width="80" Source="/Resources/kostkapusta.png"/>
+                </StackPanel>
             </Button>
             <Button x:Name="kosc3">
-                <Image  Width="80" Source="/Resources/kostkapusta.png"/>
+                <StackPanel Orientation="Horizontal">
+                    <Label x:Name="kosc3Label" FontSize="32">4</Label>
+                    <Image x:Name="kosc3Image" Width="80" Source="/Resources/kostkapusta.png"/>
+                </StackPanel>
             </Button>
             <Button x:Name="kosc4">
-                <Image  Width="80" Source="/Resources/kostkapusta.png"/>
+                <StackPanel Orientation="Horizontal">
+                    <Label x:Name="kosc4Label" FontSize="32">5</Label>
+                    <Image x:Name="kosc4Image" Width="80" Source="/Resources/kostkapusta.png"/>
+                </StackPanel>
             </Button>
         </StackPanel>
         <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal">
@@ -51,35 +67,35 @@
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
 
-    
 
-        <Label  Grid.Row="0" Grid.Column="0" >1</Label>
+
+            <Label  Grid.Row="0" Grid.Column="0" >Jedynki</Label>
         <TextBox x:Name="jedynki" Grid.Row="0" Grid.Column="1">0</TextBox>
-        <Label  Grid.Row="1" Grid.Column="0" >1</Label>
+        <Label  Grid.Row="1" Grid.Column="0" >Dwójki</Label>
         <TextBox x:Name="dwojki" Grid.Row="1" Grid.Column="1">0</TextBox>
-        <Label  Grid.Row="2" Grid.Column="0" >1</Label>
+        <Label  Grid.Row="2" Grid.Column="0" >Trójki</Label>
         <TextBox x:Name="trojki" Grid.Row="2" Grid.Column="1">0</TextBox>
-        <Label  Grid.Row="3" Grid.Column="0" >1</Label>
+        <Label  Grid.Row="3" Grid.Column="0" >Czwórki</Label>
         <TextBox x:Name="czworki" Grid.Row="3" Grid.Column="1">0</TextBox>
-        <Label  Grid.Row="4" Grid.Column="0" >1</Label>
+        <Label  Grid.Row="4" Grid.Column="0" >Piątki</Label>
         <TextBox x:Name="piatki" Grid.Row="4" Grid.Column="1">0</TextBox>
-        <Label  Grid.Row="5" Grid.Column="0" >1</Label>
+        <Label  Grid.Row="5" Grid.Column="0" >Szóstki</Label>
         <TextBox x:Name="szostki" Grid.Row="5" Grid.Column="1">0</TextBox>
         
             
-        <Label  Grid.Row="0" Grid.Column="2" >1</Label>
+        <Label  Grid.Row="0" Grid.Column="2" >Trzy jednakowe</Label>
         <TextBox x:Name="trzyk" Grid.Row="0" Grid.Column="3">0</TextBox>
-        <Label  Grid.Row="1" Grid.Column="2" >1</Label>
+        <Label  Grid.Row="1" Grid.Column="2" >Cztery jednakowe</Label>
         <TextBox x:Name="czteryk" Grid.Row="1" Grid.Column="3">0</TextBox>
-        <Label  Grid.Row="2" Grid.Column="2" >1</Label>
+        <Label  Grid.Row="2" Grid.Column="2" >Full</Label>
         <TextBox x:Name="full" Grid.Row="2" Grid.Column="3">0</TextBox>
-        <Label  Grid.Row="3" Grid.Column="2" >1</Label>
+        <Label  Grid.Row="3" Grid.Column="2" >Maly strit</Label>
         <TextBox x:Name="mstrit" Grid.Row="3" Grid.Column="3">0</TextBox>
-        <Label  Grid.Row="4" Grid.Column="2" >1</Label>
+        <Label  Grid.Row="4" Grid.Column="2" >Duży strit</Label>
         <TextBox x:Name="dstrit" Grid.Row="4" Grid.Column="3">0</TextBox>
-        <Label  Grid.Row="5" Grid.Column="2" >1</Label>
-        <TextBox x:Name="yatzy" Grid.Row="5" Grid.Column="3">0</TextBox>
-        <Label  Grid.Row="6" Grid.Column="2" >1</Label>
+        <Label  Grid.Row="5" Grid.Column="2" >Generał</Label>
+        <TextBox x:Name="general" Grid.Row="5" Grid.Column="3">0</TextBox>
+        <Label  Grid.Row="6" Grid.Column="2" >Szansa</Label>
         <TextBox x:Name="szansa" Grid.Row="6" Grid.Column="3">0</TextBox>
         </Grid>
 

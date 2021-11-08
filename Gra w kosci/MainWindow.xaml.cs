@@ -32,9 +32,26 @@ namespace Gra_w_kosci
         {
             uklad u = new uklad();
             u.uklad_losuj();
+            
+            kosc0Label.Content = u.uklad5[0].Oczka.ToString();
+            kosc1Label.Content = u.uklad5[1].Oczka.ToString();
+            kosc2Label.Content = u.uklad5[2].Oczka.ToString();
+            kosc3Label.Content = u.uklad5[3].Oczka.ToString();
+            kosc4Label.Content = u.uklad5[4].Oczka.ToString();
 
-            wynik1.Content = u.uklad5[0].OczkaProperty.ToString();
+            BitmapImage bi3 = new BitmapImage();
+            bi3.BeginInit();
+            bi3.UriSource = new Uri("/Recources/kostka1.png", UriKind.Relative);
+            bi3.EndInit();
+
+            kosc0Image.Source = bi3;
+
+
+
+            //wynik1.Content = u.uklad5[0].OczkaProperty.ToString();
         }
+
+
 
         
     }

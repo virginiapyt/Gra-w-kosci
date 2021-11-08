@@ -9,6 +9,13 @@
 
   <ItemGroup>
     <Resource Include="Resources\kostkapusta.png" />
+    <Resource Include="Resources\kostka1.png" />
+    <Resource Include="Resources\kostka2.png" />
+    <Resource Include="Resources\kostka3.png" />
+    <Resource Include="Resources\kostka4.png" />
+    <Resource Include="Resources\kostka5.png" />
+    <Resource Include="Resources\kostka6.png" />
+    <Resource Include="Resources\kostkacz1.png" />
   </ItemGroup>
 
  
