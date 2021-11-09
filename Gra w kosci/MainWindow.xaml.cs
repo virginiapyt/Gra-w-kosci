@@ -24,13 +24,14 @@ namespace Gra_w_kosci
         {
             InitializeComponent();
             
+            
 
             
         }
 
         private void Button_Rzuc(object sender, RoutedEventArgs e)
         {
-            uklad u = new uklad();
+            Gra u = new Gra();
             u.uklad_losuj();
             
             kosc0Label.Content = u.uklad5[0].Oczka.ToString();
@@ -46,13 +47,14 @@ namespace Gra_w_kosci
 
             kosc0Image.Source = bi3;
 
-
+            
 
             //wynik1.Content = u.uklad5[0].OczkaProperty.ToString();
         }
 
-
-
-        
+        private void kosc0_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }

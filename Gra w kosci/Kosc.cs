@@ -17,9 +17,9 @@ namespace Gra_w_kosci
             set { oczka = value; }
         }
 
-        private int zablokowany;
+        private bool zablokowany;
 
-        public int Zablokowany
+        public bool Zablokowany
         {
             get { return zablokowany; }
             set { zablokowany = value; }
@@ -34,7 +34,7 @@ namespace Gra_w_kosci
         public Kosc(int oczka)
         {
             this.oczka = oczka;
-            this.zablokowany =0;
+            this.zablokowany =false;
 
             switch (oczka){
                 case 1:
@@ -55,5 +55,7 @@ namespace Gra_w_kosci
 
            
         }
+
+       
     }
 }

@@ -10,34 +10,34 @@
     <DockPanel>
 
         <StackPanel DockPanel.Dock="Left" >
-            <Button x:Name="kosc0">
+            <Button x:Name="kosc0" Click="kosc0_Click">
                 <StackPanel Orientation="Horizontal">
-                    <Label x:Name="kosc0Label" FontSize="32">1</Label>
+                    <Label x:Name="kosc0Label" FontSize="32">0</Label>
                     <Image x:Name="kosc0Image"  Width="80" Source="/Resources/kostka1.png"/>
                 </StackPanel>
                 
             </Button>
             <Button x:Name="kosc1">
                 <StackPanel Orientation="Horizontal">
-                    <Label x:Name="kosc1Label" FontSize="32">2</Label>
+                    <Label x:Name="kosc1Label" FontSize="32">0</Label>
                     <Image x:Name="kosc1Image" Width="80" Source="/Resources/kostkapusta.png"/>
                 </StackPanel>
             </Button>
             <Button x:Name="kosc2">
                 <StackPanel Orientation="Horizontal">
-                    <Label x:Name="kosc2Label" FontSize="32">3</Label>
+                    <Label x:Name="kosc2Label" FontSize="32">0</Label>
                     <Image x:Name="kosc2Image" Width="80" Source="/Resources/kostkapusta.png"/>
                 </StackPanel>
             </Button>
             <Button x:Name="kosc3">
                 <StackPanel Orientation="Horizontal">
-                    <Label x:Name="kosc3Label" FontSize="32">4</Label>
+                    <Label x:Name="kosc3Label" FontSize="32">0</Label>
                     <Image x:Name="kosc3Image" Width="80" Source="/Resources/kostkapusta.png"/>
                 </StackPanel>
             </Button>
             <Button x:Name="kosc4">
                 <StackPanel Orientation="Horizontal">
-                    <Label x:Name="kosc4Label" FontSize="32">5</Label>
+                    <Label x:Name="kosc4Label" FontSize="32">0</Label>
                     <Image x:Name="kosc4Image" Width="80" Source="/Resources/kostkapusta.png"/>
                 </StackPanel>
             </Button>
